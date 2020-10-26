@@ -19,7 +19,10 @@ class MainActivity : AppCompatActivity(), ContractMainActivity {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setSupportActionBar(findViewById(R.id.homeToolbar))
+
         setContentView(R.layout.activity_main)
+
 
         //Comeca com o fragment entrada setado
         alterColorEntrada(R.color.colorSelected)
