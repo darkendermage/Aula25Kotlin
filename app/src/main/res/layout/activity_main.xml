@@ -15,6 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/ic_arrow_back"
         app:title="@string/app_name"
+        app:logo="@drawable/ic_baseline_account_"
         app:titleTextColor="@color/colorWhite" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -42,6 +43,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0">
+
+            <FrameLayout
+                android:id="@+id/flFragDetails"
+                android:layout_width="403dp"
+                android:layout_height="670dp" />
         </FrameLayout>
 
         <LinearLayout
@@ -85,15 +91,6 @@
                 tools:layout_editor_absoluteX="10dp" />
 
         </LinearLayout>
-
-        <FrameLayout
-            android:id="@+id/flFragDetails"
-            android:layout_width="403dp"
-            android:layout_height="670dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
