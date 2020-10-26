@@ -1,5 +1,6 @@
 package com.example.snackbar.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -116,6 +117,17 @@ class MainActivity : AppCompatActivity(), ContractMainActivity {
 
     fun showToast(msg: String) {
         Toast.makeText(this, msg, Toast.LENGTH_LONG).show()
+    }
+
+    override fun callActivityValues() {
+        val intent = Intent(this, ProfileActivity::class.java)
+        intent.putExtra("bundle", Bundle().apply {
+            putString("desc", "valor")
+            putString("categoria", "valor")
+            putString("datahora", "valor")
+            putFloat("Valores", 0.0f)
+        })
+        startActivity(intent)
     }
 
 }
