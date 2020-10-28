@@ -25,4 +25,12 @@
     <string name="datahora">Data-Hora</string>
     <string name="valor">Valor</string>
     <string name="btnCadastrarEntrada">Cadastrar</string>
+
+    <!-- String profile -->
+    <string name="Notification">Notificação</string>
+    <string name="Historico">Historico</string>
+    <string name="Sincronizacao">Sincronização</string>
+    <string name="Exportar">Exportar Dados</string>
+    <string name="BotaoProfile">Editar Perfil</string>
+    <string name="titleProfile">Perfil</string>
 </resources>
