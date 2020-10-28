@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/ic_arrow_back"
         app:title="@string/app_name"
-        app:logo="@drawable/ic_baseline_account_"
+        app:logo="@drawable/ic_profile"
         app:titleTextColor="@color/colorWhite" />
 
     <androidx.constraintlayout.widget.ConstraintLayout

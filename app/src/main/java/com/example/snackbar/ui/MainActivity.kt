@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity(), ContractMainActivity {
     }
 
     override fun callActivityValues() {
-        val intent = Intent(this, ProfileActivity::class.java)
+        val intent = Intent(this, homeToolbar::class.java)
         intent.putExtra("bundle", Bundle().apply {
             putString("desc", "valor")
             putString("categoria", "valor")
